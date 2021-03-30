@@ -1,0 +1,40 @@
+.uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 0.5em;
+}
+
+.property {
+    color: white;
+    background: red;
+}
+
+.font {
+    font-family: Trebuchet, Helvetica, Arial, sans-serif;
+    padding-left: 1em;
+    text-indent: 2px;
+}
+
+.grey {
+    background: lightgrey;
+}
+
+.box {
+    border: gray 1px solid;
+    border-collapse: collapse;
+}
+
+.rightline {
+    border-right: gray 1px solid;
+    border-collapse: collapse;
+}
+
+.text {
+    padding-left: 1em;
+    font-size: large;
+}
+
+* td {
+    padding-left: 0.5em;
+    font-size: smaller;
+}

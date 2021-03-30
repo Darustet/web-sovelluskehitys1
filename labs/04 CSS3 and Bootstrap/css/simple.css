@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #528CE0;
+}
+
+h1, h2 {
+    color: blue;
+    font-weight: bold;
+}
+
+
+h1 {
+    font-size: 4.0em;
+}
+
+ul, ol {
+    font-size: 0.8em;
+    border: 3px;
+    color: lightgray;
+}
+
+p {
+    text-indent: initial;
+}
+
+figcaption {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+p.copyright_notice {
+    font-size: 0.8em;
+}
+
+#special {
+    font-size: 0.8em;
+    color: yellowgreen;
+    font-style: italic;
+    border-left: 2px solid black;
+    margin-left: 40px;
+    padding-left: 10px;
+}
+
+p.code {
+    padding-left: 15px;
+    font-weight: bold;
+    font-family: Ubuntu, Droid Sans Mono, sans-serif;
+    color: yellow;
+}
+
+#codeblock {
+    background-color: black;
+    line-height: 1.3em;
+    border: 2px yellowgreen;
+    font-family: Consolas, "Courier New", Courier, monospace;
+    font-size: 1em;
+    padding: 8px;
+}

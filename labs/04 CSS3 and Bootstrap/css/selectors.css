@@ -14,6 +14,10 @@ h1.alert {
     color: red;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 p#unique {
     font-size: 0.8em;
 }

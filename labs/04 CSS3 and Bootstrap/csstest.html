@@ -1,7 +1,8 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <link href="css/simple.css" type="text/css" rel="stylesheet" />
     <title>Vintage Home Computers</title>
     <meta charset="utf-8" />
 </head>
@@ -34,7 +35,14 @@
         <li>Sinclair ZX Spectrum</li>
         <li>Commodore Vic-20</li>
     </ol>
-    <p>Read the <a href="http://en.wikipedia.org/wiki/Retrocomputing">Wikipedia article for Retrocomputing</a>.</p>
+
+    <div class="boxed">
+        This text is enclosed in a box.
+    </div>
+
+        <p>Read the <a href="http://en.wikipedia.org/wiki/Retrocomputing">Wikipedia article for Retrocomputing</a>.</p>
+
+
     
     <h2>Key concepts</h2>
     The hardware charateristics of a home computer could be defined by its graphics and sound capabilities, CPU, and amount of memory. The types of memory were:
@@ -45,12 +53,24 @@
         <dt>ROM</dt>
         <dd>Read-only memory. This was normally smaller in size than RAM and roughly corresponded to the hardware implementation of the operating system.</dd>
     </dl>
+    <p>Basic was a common language for programming 80's home computers</p>
+
+    <div id="codeblock">
+        <p class="code">10 PRINT "Hello, World"</p>
+        <p class="code">20 INPUT "Continue (y/n)?", R$</p>
+        <p class="code">30 IF R$="y" THEN GOTO 10</p>
+    </div>
+
+
     </article>
 
     
-    <hr />
-    <p>Disclaimer: <em>All opinions in this page reflect the views of their author(s), not the organization.</em></p>      
-    
+
+    <p>Disclaimer: <em>All opinions in this page reflect the views of their author(s), not the organization.</em></p>
+
+    <p class="copyright_notice">Photo courtesy of Pekka Virtanen.</p>
+    <p class="info urgent">The tour starts at 10 am.</p>
+    <p id="special">This is different from all other paragraphs</p>
 </body>
 </html>
 
