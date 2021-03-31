@@ -1,0 +1,25 @@
+body{
+    background-color: #BFBD9F;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    margin-bottom: 5px;
+}
+
+select {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.a {
+    margin-top: 10px;
+}
+
+fieldset {
+    max-width: 150px;
+}
