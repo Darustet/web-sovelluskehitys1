@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    background: #99ffe4;
+}
+
+figure#floating {
+    float: left;
+}
+
+h2 {
+    margin-top: 2em;
+
+}
+
+table {
+    border-collapse: collapse;
+    border: gray 1px solid;
+}
+
+th {
+    border: gray 1px solid;
+}
+
+td {
+    border: gray 1px solid;
+}
+
+
