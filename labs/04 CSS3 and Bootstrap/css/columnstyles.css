@@ -1,0 +1,14 @@
+section#two_columns {
+    column-count: 2;
+    column-gap: 40px;
+    float: top;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+section#three_columns {
+    column-count: 3;
+    column-gap: 50px;
+    float: bottom;
+    position: relative;
+}

@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="css/johndoe.css" type="text/css" rel="stylesheet"/>
     <title>Title</title>
 </head>
 <body>
     <h1>John Doe</h1>
         <h2>Personal Data</h2>
-        <p>John Will Doe, 19.6.2000</p>
-<figure>
+        <p>John Will Doe, 1.4.2000</p>
+<figure id="floating">
         <img src="img/johndoe.png" alt="Picture of a normal person" width="400" height="250"/>
-        <figcaption>Drawing: John Doe</figcaption>
+    <figcaption>Drawing: <em>John Doe</em>, by John "John Doe" Doe</figcaption>
 </figure>
         <h2>Short Introduction</h2>
         <p>John Doe is a very ordinary man. A true npc, if you will. Brown hair and eyes, quiet voice, two eyes and a normal looking nose; all the attributes that make a person forgettable.
@@ -23,9 +24,11 @@
             <li>Birdwatching</li>
         </ul>
 
-        <h2>Courses</h2>
+
+    <h2>Courses</h2>
+    <section id="courses">
     <table>
-        <caption>Courses passes</caption>
+        <caption><b>Courses passes</b></caption>
         <thead>
         <tr>
             <th>NAME</th>
@@ -34,7 +37,7 @@
         </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr class="course">
                 <td>English Literature 102</td>
                 <td>Ornithology 101</td>
                 <td>Greek Classics 101</td>
@@ -51,7 +54,8 @@
             </tr>
         </tbody>
     </table>
+    </section>
         <h2>Contact</h2>
-        <p>johndoe2@universityofnottingham.com</p>
+        <p>johndoe2@universityofnothingham.com</p>
 </body>
 </html>
