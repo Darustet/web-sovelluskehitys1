@@ -12,6 +12,19 @@ function process() {
     // Get form references:
     var email = document.getElementById('email');
     var comments = document.getElementById('comments');
+    var name = document.getElementById('name');
+
+    // Validate the full name:
+    // We want the full name to have at least three characters,
+    // so counting space, it needs minimum of 4 characters
+    if (name.value.length < 4
+    || name.value.length > 100
+    || name.value.search(' ') == false) {
+        okay = false;
+        alert('Please enter full name of at least 3 characters, separated by a space');
+    }
+
+
     // Validate the email address:
     if (!email || !email.value 
     || (email.value.length < 6) 
