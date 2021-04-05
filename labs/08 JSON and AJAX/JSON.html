@@ -18,8 +18,40 @@ var fido2 = {
 var fidoString = JSON.stringify(fido2);
 console.log("We made a string from a dog! " + fidoString);
 
+var student = {
+    stdId: 1234567,
+    studies: {field: "Information technology",
+              major: "Software Development"}
+    }
+var myString = JSON.stringify(student);
+console.log(myString);
+
+document.getElementById("studentInfo").innerHTML = myString;
+
+var print = function printStudent() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("studentInfo").innerHTML = this.responseText;
+    } else {
+      alert("Virhe");
+    }
+  };
+  xhttp.open("GET", myString, true);
+  xhttp.send();
+}
+
+var myObject = JSON.parse(myString);
+
+var studentTwo = myObject.id;
+
+var myStringTwo = JSON.stringify(myStringTwo);
+
+
+
   </script>
 </head>
 <body>
+  <p id="studentInfo"></p>
 </body>
 </html>

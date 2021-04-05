@@ -10,6 +10,8 @@
 		map.onmousemove = showCoords;
 		var mydiv = document.getElementById("mydiv");
 		mydiv.onclick = addtext;
+		var dom3 = document.getElementById("mydiv");
+		dom3.innerHTML = dom3 + createList();
 	}
 	
 	function showCoords(eventObj) {
@@ -28,6 +30,16 @@
 			alert("Looks like you have an old browser!");
 		}
 	}
+    function createList() {
+        var ul=document.createElement("ul");
+
+        for (var i=0; i<5;i++) {
+            var li=document.createElement("li");
+
+            ul.appendChild(li);
+            li.innerHTML = li.innerHTML + "text nro " + i;
+        }
+    }
   </script>
 </head>
 <body>
